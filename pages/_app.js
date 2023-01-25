@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import { Dataget } from '../context/DataContext'
 import '../styles/globals.css'
 
