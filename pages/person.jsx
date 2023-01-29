@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
-const Personal = () => {
+const Person = () => {
 	const [formData,setFormData]=useState({
 		name:"",
 		email:"",
@@ -16,7 +16,6 @@ const Personal = () => {
 			}
 		})
 	}
-	// console.log(formData.email.length)
   return (
 	<section className="px-12 py-8">
 		
@@ -42,4 +41,4 @@ const Personal = () => {
   )
 }
 
-export default Personal
+export default Person
